@@ -1,0 +1,59 @@
+.login {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.login_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.input {
+    width: 350px;
+    margin-top: 20px;
+    height: 50px;
+}
+h1 {
+    text-align: center;
+}
+
+#button {
+    margin-top: 20px;
+    background-color: black;
+    color: #f5f5f5;
+    height: 30px;
+    font-weight: bold;
+
+}
+.employee {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.employee td, .employee th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.employee tr:hover {background-color: #ddd;}
+
+.employee th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #6495ed;
+    color: white;
+    text-transform: capitalize;
+}
+.employee_list {
+    min-width: fit-content;
+    max-width: 100%;
+    padding: 20px
+}
